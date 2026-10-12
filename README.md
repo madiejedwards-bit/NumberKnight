@@ -1,6 +1,7 @@
 # NumberKnight
 A math-based adventure game built natively in C++ utilizing **Dear ImGui** for the user interface and **DirectX 11** for hardware-accelerated rendering.
-
+## Quick Start 
+Want to try the game? Skip the compile step and grab the compiled desktop binary directly from my [Latest Stable Release (v1.0.0)](https://github.com).
 ## System Architecture & Separation of Concerns
 To maintain a clean decoupled codebase, the project separates core gameplay simulation from the presentation layer:
 * **The `Questions` Engine (100% Hand-Coded):** Built entirely from scratch without AI assistance. This isolated domain class handles the core math game loop, dynamic question generation, score/health state progression, and precision game-timer tracking.
